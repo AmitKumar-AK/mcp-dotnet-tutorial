@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "mcp-sitecoreai": {
+			"type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+				"McpSitecoreAiExample.csproj",
+            ]
+        }
+    },
+	"inputs": []
+}
